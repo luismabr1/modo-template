@@ -1,10 +1,9 @@
-import Slider from "@components/ui/Slider";
-import Banner from "@components/ui/banner";
-import LinkSlider from '@components/ui/Links'
+import Banner from '@components/ui/banner';
+import Slider from '@components/ui/Slider';
 
 export default function MainPage() {
   return (
-    <main >
+    <main>
       <Banner />
       <Slider />
     </main>

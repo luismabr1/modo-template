@@ -1,4 +1,5 @@
 import Link from 'next/link';
+
 import LogoModo from './LogoModo';
 
 function GlobalNav() {
@@ -11,14 +12,23 @@ function GlobalNav() {
       </div>
 
       <div className="flex justify-end gap-x-4 text-white">
-        <Link className="ml-2 flex items-center gap-x-2 font-medium" href="/example">Somos MoDo</Link>
-        <Link className="ml-2 flex items-center gap-x-2 font-medium" href="/example">Gastronomia</Link>
-        <Link  className="ml-2 flex items-center gap-x-2 font-medium" href="/example">Entretenimiento</Link>
-        <Link  className="ml-2 flex items-center gap-x-2 font-medium" href="/example">Agenda</Link>
-      <button>
-          <Link  className="ml-2 flex items-center gap-x-2 font-medium"  href="/example">Reserva</Link>
-      </button>
-
+        <Link className="ml-2 flex items-center gap-x-2 font-medium" href="/example">
+          Somos MoDo
+        </Link>
+        <Link className="ml-2 flex items-center gap-x-2 font-medium" href="/example">
+          Gastronomia
+        </Link>
+        <Link className="ml-2 flex items-center gap-x-2 font-medium" href="/example">
+          Entretenimiento
+        </Link>
+        <Link className="ml-2 flex items-center gap-x-2 font-medium" href="/example">
+          Agenda
+        </Link>
+        <button>
+          <Link className="ml-2 flex items-center gap-x-2 font-medium" href="/example">
+            Reserva
+          </Link>
+        </button>
       </div>
     </nav>
   );
