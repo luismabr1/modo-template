@@ -15,12 +15,11 @@ const Banner = () => {
                         <h3 className="font-light text-3xl">with TailwindCSS</h3>
                     </div> */}
       </section>
-      <div className="relative h-24 overflow-hidden bg-black">
-        {' '}
+      <div className="relative  overflow-hidden bg-black">
         <img
           src="https://modoccs.com/main/wp-content/uploads/2024/08/BANNERVERANO.jpg"
           alt="Imagen en movimiento"
-          className="animate-marquee absolute"
+          className="animate-marquee h-fit"
         />
       </div>
     </>
